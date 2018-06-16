@@ -1,0 +1,36 @@
+body{
+  font-family: "Arial";
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  margin-left: 375px;
+}
+
+form{
+  padding: 20px;
+  box-shadow: 5px 5px 5px 6px #888888; 
+  width: 500px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat 1fr;
+  background-color: #e4f6f8;
+}
+
+#radio{
+  padding: 20px;
+  border: solid #888888 1.5px;
+}
+
+#checkbox{
+  padding: 20px;
+  border: solid #888888 1.5px;
+}
+
+textarea{
+  width: 300px;
+  height: 200px;
+}
+
+button{
+  background: #fc5b7d;
+  border:1px solid #fc5b7d;
+  color:white;
+}
